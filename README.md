@@ -9,7 +9,7 @@ import { studying } from 'Neexo'
         
         const currentWork = {
             company: 'Processor',
-            role: 'Infrastructure and Support Analyst N1'
+            role: 'Infrastructure and Support Analyst N1',
             techs: [Windows, AD, Hardware, Software, General Settings, Support],
         }
         return { currentWork }
