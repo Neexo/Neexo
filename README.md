@@ -1,38 +1,13 @@
-```php
-<?php
-
-namespace MatheusAugusto;
-
-class About extends Me
-{
-    public function getCurrentWorkplace()
-    {
-        return [
-            'workplace' => [
-                'company' => 'Processor',
-                'position' => 'Infrastructure and Support Analyst N1'         
-            ]
-        ];
-    }
-
-    public function getDailyKnowledge()
-    {
-        return [
-            html::class,
-            javascript::class,
-            php::class,
-            python::class,
-            css::class,
-        ];
-    }
-
-    public function getFutureGoal()
-    {
-        return 'To contribute to open source.';
-    }
-}
-?>
+```js
+import { studying } from 'Neexo'
+    export const Neexo = () => {
+        const { php, html, css, python, js } = studying
+        
+        const currentWork = {
+            company: 'Processor',
+            role: 'Infrastructure and Support Analyst N1'
+            techs: [Windows, AD, Hardware, Software, General Settings, Support],
+        }
+        return { currentWork }
+     }
 ```
-
----
-⭐️ From [ashbakernz](https://github.com/ashbakernz)
