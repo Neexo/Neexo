@@ -1,16 +1,37 @@
-### Hi there 👋
+```php
+<?php
 
-<!--
-**Neexo/Neexo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace MatheusAugusto;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'company' => 'Processor',
+                'position' => 'Infrastructure and Support Analyst N1'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge()
+    {
+        return [
+            html::class,
+            javascript::class,
+            php::class,
+            python::class,
+            css::class,
+        ];
+    }
+
+    public function getFutureGoal()
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
+
+---
+⭐️ From [ashbakernz](https://github.com/ashbakernz)
